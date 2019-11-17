@@ -6,7 +6,7 @@ class Helpers
     end
   end 
   
-  def is_logged_in?(session)
+  def self.is_logged_in?(session)
     
   end 
   
