@@ -23,7 +23,7 @@ class ApplicationController < Sinatra::Base
 
   get '/account' do
     
-    @user = 
+    @user = User.find(session[user_id])
 
   end
 
